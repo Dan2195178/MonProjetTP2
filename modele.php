@@ -6,12 +6,13 @@
         à celle-ci (username, hostname, password, nom de la base, etc...)
     
     */
+   
     define("SERVER", "localhost");
     define("USERNAME", "root");
     define("PASSWORD", "");
     define("DBNAME", "BaseBlog");
-    
 
+    
     function connectDB()
     {
         //se connecter à la base de données
